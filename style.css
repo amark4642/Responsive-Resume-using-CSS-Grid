@@ -1,0 +1,149 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    gap: 10px;
+    min-height: 1000px;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.left-section{
+    background-color: rgb(34, 32, 32);
+    color:aliceblue;
+    border-radius: 1%;
+}
+.right-section{
+width:90%;
+border-radius: 1%;
+background-color: rgba(95, 158, 160, 0.61);
+}
+.left-content{
+    padding: 1em;
+}
+.profile-image{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+    overflow: hidden;
+    text-align: center;
+}
+img{
+    width: 180px;
+    border-radius: 10%;
+    margin-bottom: -5px;
+    margin-left: -4px;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.icon{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    background-color: rgb(37, 25, 53);
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    border: 1px solid whitesmoke;
+}
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+}
+.right-main-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.xyz{
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+    padding: 1%;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+
+
+
+/* @media only screen and  (max-width: 673px)
+{
+    .main-content{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 10px;
+        min-height: 1000px;
+        justify-content: center;
+        min-height: 1000px;
+        width: 90%;
+        margin: 20px auto;
+    }
+} */
+
+@media only screen and (max-width: 673px) {
+    .main-content{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 10px;
+        min-height: 1000px;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+    body{
+        text-align: center;
+    }
+  }
